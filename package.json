@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "start": "tsx src/server.ts",
+    "start": "tsx dist/server.js",
     "start:dev": "tsx watch src/server.ts",
-    "start:command": "tsx watch commands/ping.ts",
-    "buld": "tsup src"
+    "start:command": "tsx watch commands/ping.ts"
   },
   "keywords": [],
   "author": "",
