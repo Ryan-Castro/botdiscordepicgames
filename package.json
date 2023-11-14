@@ -9,7 +9,8 @@
   "scripts": {
     "start": "tsx dist/server.js",
     "start:dev": "tsx watch src/server.ts",
-    "start:command": "tsx watch commands/ping.ts"
+    "start:command": "tsx watch commands/ping.ts",
+    "build": "tsup src"
   },
   "keywords": [],
   "author": "",
