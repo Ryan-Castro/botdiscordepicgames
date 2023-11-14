@@ -16,6 +16,5 @@ client.on("interactionCreate", async (interaction) => {
   if (interaction.commandName === "teste") {
     await interaction.reply("Teste!!!");
   }
-  await interaction.reply("Teste!!!");
 });
 client.login(process.env.TOKEN);
